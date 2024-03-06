@@ -2,12 +2,10 @@
 
 namespace App\Http\Requests\Api;
 
-use App\Models\Currency;
 use App\Rules\CurrencyValidationRule;
 use Illuminate\Contracts\Validation\Validator;
 use Illuminate\Foundation\Http\FormRequest;
 use Illuminate\Http\Exceptions\HttpResponseException;
-use Illuminate\Validation\Rule;
 use Symfony\Component\HttpFoundation\Response as ResponseAlias;
 
 class GetCurrencyRequest extends FormRequest

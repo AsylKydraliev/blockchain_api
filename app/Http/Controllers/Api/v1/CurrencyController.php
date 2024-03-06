@@ -5,7 +5,6 @@ namespace App\Http\Controllers\Api\v1;
 use App\Http\Controllers\Controller;
 use App\Http\Requests\Api\ConvertCurrencyRequest;
 use App\Http\Requests\Api\GetCurrencyRequest;
-use App\Http\Resources\CurrencyExchangeResource;
 use App\Http\Resources\CurrencyResource;
 use App\Models\Currency;
 use Illuminate\Http\JsonResponse;
