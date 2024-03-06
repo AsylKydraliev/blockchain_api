@@ -5,7 +5,7 @@
 Основные функциональные возможности проекта включают:
 
 * Получение текущих курсов валют.
-* Получение интересующей валюты.
+* Получение интересующих валют.
 * Конвертация валют.
 
 -----
@@ -71,4 +71,4 @@ php artisan serve --port=9876
 * http://127.0.0.1:9876/api/v1/currencies?currency=USD,RUB,EUR
 
 Для запроса на обмен валюты необходимо сделать POST запрос на:
-* http://127.0.0.1:8000/api/v1/currencies?currency_from=BTC&currency_to=USD&value=0.01
+* http://127.0.0.1:9876/api/v1/currencies?currency_from=BTC&currency_to=USD&value=0.01
